@@ -1,10 +1,10 @@
 import java.util.Scanner;
-class L80{
+class L84{
 	public static void main(String args[]){
 	Scanner sc=new Scanner(System.in);
-	StringBuffer s=new StringBuffer("Welcome To Bhopal");
+	StringBuffer s=new StringBuffer("ANIKET");
 	System.out.println(s);
-	s.delete(3,6);
+	s.reverse();
 	System.out.println(s);
 	}
 }
