@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class L94{
+	int fact(int n){
+	if(n>0){
+	int r=n%10;
+	int sum=sum*10+r;
+	n=n/10;
+	fact(n);
+	return sum;
+	}
+	
+	}
+	public static void main(String args[]){
+	L93 x=new L93();
+	System.out.println(x.fact(121));
+	}
+}
